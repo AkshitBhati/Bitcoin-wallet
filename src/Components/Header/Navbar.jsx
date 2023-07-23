@@ -11,15 +11,15 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="nav__container">
-        <div className="nav__menu">
+      <div className="container">
+        <div className="menu-back">
           <FaChevronLeft />
         </div>
        <h1>Bitcoin Wallet</h1>
-        <div className="nav__menu--icon" onClick={handleShowNavbar}>
+        <div className="menu-icon" onClick={handleShowNavbar}>
           <FaEllipsisVertical />
         </div>
-        <div className={`nav__elements  ${showNavbar && 'active'}`}>
+        <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
               Home
