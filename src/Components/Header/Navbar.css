@@ -1,5 +1,5 @@
 
-.nav__container {
+.container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 15px;
@@ -15,25 +15,25 @@
   position: relative;
 }
 
-.nav__menu {
+.menu-icon {
   display: none;
   color: rgb(163, 156, 156);
 }
 
-.nav__elements ul {
+.nav-elements ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
-.nav__elements ul li{
+.nav-elements ul li{
   margin: 10px;
   cursor: pointer;
 }
-.nav__menu{
+.menu-back{
   display: none;
 }
 @media (max-width: 55em) {
-  .nav__menu{
+  .menu-back{
     display: block;
     color: rgb(163, 156, 156)
   }
@@ -41,12 +41,12 @@
     text-align: center;
     flex: 1;
   }
-  .nav__menu--icon {
+  .menu-icon {
     display: block;
     cursor: pointer;
   }
 
-  .nav__elements {
+  .nav-elements {
     position: absolute;
     right: 0;
     top: 4rem;
@@ -60,17 +60,17 @@
     
   }
 
-  .nav__elements.active {
+  .nav-elements.active {
     width: 100px;
     align-items: center;
   }
 
-  .nav__elements ul {
+  .nav-elements ul {
     display: flex;
     flex-direction: column;
   }
 
-  .nav__elements ul li {
+  .nav-elements ul li {
     margin-right: unset;
     margin-top: 22px;
   }
