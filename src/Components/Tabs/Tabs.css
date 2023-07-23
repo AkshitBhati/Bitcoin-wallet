@@ -1,0 +1,20 @@
+.tabs{
+     margin-top: 2.3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    color: rgb(145, 145, 145);
+    font-weight: 600;
+    
+}
+.tabs__name{
+    padding: 2px 12px;
+    border-radius:15px;
+}
+.tabs__name:hover{
+    background-color:rgb(147, 168, 182) ;
+    color: #fff;
+    cursor: pointer;
+}
+
+  

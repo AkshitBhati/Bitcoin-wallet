@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    position: absolute;
+    left: 27px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 25px;
+    
+}
+.footer__icons {
+    color: rgb(172, 180, 186);
+}
+.footer__icons:hover{
+    cursor: pointer;
+    color: rgb(71, 96, 114);
+}
+@media (max-width:55em){
+    .footer{
+        left: 10px;
+        font-size: 18px;
+    }
+}

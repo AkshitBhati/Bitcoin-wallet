@@ -1,0 +1,21 @@
+
+.chart__container{
+    margin-top: 2.2rem;
+    width: 220%;
+    margin-left: -20rem;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 0.8rem;
+    border-radius: 10px;
+    
+}
+
+@media(max-width:55em){
+    .chart__container{
+        overflow-y: hidden;
+        
+        margin-left: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+}
